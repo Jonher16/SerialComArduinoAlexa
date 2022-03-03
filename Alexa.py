@@ -49,13 +49,13 @@ def run_alexa():
         talk(info)
     elif 'date' in command:
         talk('sorry, I have a headache')
-        pywhatkit.text_to_handwriting("Un beso y una flor", rgb=[0, 0, 0])
+        pywhatkit.text_to_handwriting("Hello", rgb=[0, 0, 0])
     elif 'are you single' in command:
         talk('I am in a relationship with wifi')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     elif 'f***' in command :
-        talk("No, fuck you. Go wipe your ass with your mamma. Ask her also for a pc cuz I will break it.")
+        talk("Calm down honey")
         pywhatkit.shutdown(time=1)
     else:
         talk('Please say the command again.')
