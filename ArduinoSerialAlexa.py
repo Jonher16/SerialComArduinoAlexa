@@ -95,12 +95,12 @@ while True:
         serialArduino.close()
         break
     elif 'F***' in opcion:
-        talk("Shut the fuck up YOU, inglorious basterd. Now ask your mamma for the commands.")
+        talk("You should swear, honey. Calm down.")
         serialArduino.close()
         break
     else:
         print("Opcion no válida...\n")
-        talk("Non valid option. It's easier than that you filthy fuck.")
+        talk("Non valid option.")
 
 
 
