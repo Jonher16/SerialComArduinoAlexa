@@ -75,7 +75,7 @@ while True:
         break
     else:
         print("Opcion no válida...\n")
-        talk("Non valid option. It's easier than that you filthy fuck.")
+        talk("Non valid option. It's easier than that.")
 
 
 
