@@ -95,7 +95,7 @@ while True:
         serialArduino.close()
         break
     elif 'F***' in opcion:
-        talk("You should swear, honey. Calm down.")
+        talk("You should not swear, honey. Calm down.")
         serialArduino.close()
         break
     else:
